@@ -10,7 +10,6 @@ st.subheader("Forja do Treino · Llama 3.3")
 if st.button("🜃 FORJAR TREINO DE HOJE"):
 with st.spinner("O fogo está a moldar a tua sessão... respira fundo."):
 try:
-# Prompt contextual com base no PDF
 prompt = (
     f"João está em modo {st.session_state.modo}. "
     "Gera um treino ODA completo para hoje, seguindo o protocolo de Reconstituição. "
