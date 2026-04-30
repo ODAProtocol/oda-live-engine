@@ -1,9 +1,7 @@
 E certifica-te de que a chave usada (`SUPABASE_KEY`) é a **service_role** (tem permissão de inserção).
 """)
 
-# ══════════════════════════════════════════════════════════════════
-# FORJAR TREINO — O Oráculo com IA
-# ══════════════════════════════════════════════════════════════════
+# ─── Forja do Treino (IA) ───────────────────────────────────────
 st.markdown("---")
 st.subheader("Forja do Treino · Llama 3.3")
 
@@ -34,8 +32,6 @@ st.markdown(f"""
 except Exception as e:
 st.error(f"O oráculo encontrou uma névoa: {e}")
 
-# ══════════════════════════════════════════════════════════════════
-# RODAPÉ — Como a última página do PDF
-# ══════════════════════════════════════════════════════════════════
+# ─── Rodapé ─────────────────────────────────────────────────────
 st.markdown("<div class='footer-quote'>“O alarme das 04:30 e a confissão anti‑cigarro são as decisões que importam. O protocolo não exige perfeição — exige presença diária.”</div>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:#a09080; font-size:0.8rem;'>ODA Protocol · Reconstituição · Decisões clínicas validadas pelo psiquiatra</p>", unsafe_allow_html=True)
